@@ -1,4 +1,12 @@
 # Stock-Price-Forecasting-With-Exogenous-Variables
+![ alt text ](https://img.shields.io/badge/license-MIT-green?style=&logo=)
+![ alt text ](https://img.shields.io/badge/-Jupyter-F37626?logo=Jupyter&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-NumPy-013243?logo=Numpy&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=TensorFlow&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-Keras-D00000?logo=Keras&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-pandas-150458?logo=pandas&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+
 Time series forecasting (close prices) with different estimators. This project focused on adding exogenous fetures to the predicting models. The stock price data was collected and loaded via `yfinance` API. The idea behind was to enrich the dataset and improve the model learning. With proper feature selection we achived accurate price estimations with the following evaluation metrics:
 
 | Model                | RMSE    | 6-Fold Cross-<br>Validation | R<sup>2 | MAE     | MAPE [%] |
